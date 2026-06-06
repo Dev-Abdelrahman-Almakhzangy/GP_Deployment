@@ -1,0 +1,13 @@
+streamlit>=1.33
+onnxruntime>=1.17
+numpy
+pandas
+pillow
+lightgbm>=4.0
+scikit-learn
+joblib
+# Optional — only if you enable Grad-CAM (needs the PyTorch model, not ONNX):
+# torch
+# grad-cam
+# Optional — if you prefer shap.TreeExplainer over LightGBM's built-in pred_contrib:
+# shap
